@@ -17,3 +17,18 @@ def test_google_search():
         driver.implicitly_wait(30)
         search_button.click()
 
+    def check_results_count(driver):
+        inner_search_results = driver.find_elements_by_xpath('//div [@class = "g"]')
+        return len(inner_search_results) > 5
+
+    with allure.step('Ожидаем что колличество результатов теста будет больше 5'):
+        WebDriver(driver, 5, 0.5).until(check_results_count)
+
+    with allure.step('Переходим по ссылке первого результата'):
+        search_results = driver.find_element_by_xpath('//div [@class = "g"]')
+        link = search_results[0].find_element_by_xpath('//a/h3')
+        link.click()
+
+    driver.switch_to.window(driver.window_handles[1])
+    with allure.step('Проверим корректность Title страницы'):
+        assert driver.title == 'Тут должен быть заголовок который будет присутствовать на открываемой нами страничке, мы проверяем наличие на страничке этого заголовка'
