@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="550772b6-9efa-45a5-9293-6a4270bfeb3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test_google_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_google_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_google_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret selection-end-line="34" />
+            <state relative-caret-position="442">
+              <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -37,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/allure_results/90306a34-af46-458d-bc42-bc27ddf5e387-result.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="55" lean-forward="true" selection-start-column="51" selection-end-column="55" />
+              <caret column="55" selection-start-column="51" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -61,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/test_google_search.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -82,11 +84,6 @@
             <path>
               <item name="selenium-project-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium-project-python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium-project-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-project-python" type="462c0819:PsiDirectoryNode" />
-              <item name="allure_results" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,10 +196,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="1" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951613" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" sideWeight="0.5048387" side_tool="true" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935484" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" sideWeight="0.5064516" side_tool="true" visible="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -249,13 +245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/allure_results/c9c72626-4096-48a7-9c41-2f024fe4d310-result.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -266,14 +255,29 @@
     <entry file="file://$PROJECT_DIR$/allure_results/90306a34-af46-458d-bc42-bc27ddf5e387-result.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="55" lean-forward="true" selection-start-column="51" selection-end-column="55" />
+          <caret column="55" selection-start-column="51" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_google_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret selection-end-line="34" />
+        <state relative-caret-position="442">
+          <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
